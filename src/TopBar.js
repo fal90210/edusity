@@ -21,17 +21,17 @@ function TopBar({ location }) {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/" active={pathname == "/"}>
-            Home
+            {t("Home")}
           </Nav.Link>
           <Nav.Link href="/search" active={pathname.includes("/search")}>
-            Search
+            {t("Search")}
           </Nav.Link>
-          <NavDropdown title="Language" id="basic-nav-dropdown">
+          <NavDropdown title={t("Language")} id="basic-nav-dropdown">
             <NavDropdown.Item onClick={() => changeLanguage("en")}>
-              English
+              {t("English")}
             </NavDropdown.Item>
             <NavDropdown.Item onClick={() => changeLanguage("fr")}>
-              French
+              {t("French")}
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>

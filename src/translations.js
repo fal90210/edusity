@@ -30,6 +30,11 @@ const resources = {
       world: "World",
       Search: "Search",
       numResults: "There are <1>{{count}}</1> results.",
+      Home: "Home",
+      Search: "Search",
+      Language: "Language",
+      English: "English",
+      French: "French",
     },
   },
   fr: {
@@ -63,6 +68,11 @@ const resources = {
       world: "Monde",
       Search: "Search",
       numResults: "Il y a <1>{{count}}</1> résultats.",
+      Home: "Page d'accueil",
+      Search: "Chercher",
+      Language: "La langue",
+      English: "Anglais",
+      French: "Français",
     },
   },
 };
