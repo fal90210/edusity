@@ -35,6 +35,7 @@ const resources = {
       Language: "Language",
       English: "English",
       French: "French",
+      Keyword: "Keyword",
     },
   },
   fr: {
@@ -73,6 +74,7 @@ const resources = {
       Language: "La langue",
       English: "Anglais",
       French: "Français",
+      Keyword: "Mot-clé",
     },
   },
 };

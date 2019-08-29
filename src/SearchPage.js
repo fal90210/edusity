@@ -41,11 +41,11 @@ function SearchPage() {
           <Form noValidate onSubmit={handleSubmit} className="form">
             <Form.Row>
               <Form.Group as={Col} md="12" controlId="keyword">
-                <Form.Label>Keyword</Form.Label>
+                <Form.Label>{t("Keyword")}</Form.Label>
                 <Form.Control
                   type="text"
                   name="keyword"
-                  placeholder="Keyword"
+                  placeholder={t("Keyword")}
                   value={values.keyword || ""}
                   onChange={handleChange}
                   isInvalid={touched.keyword && errors.keyword}
@@ -56,7 +56,7 @@ function SearchPage() {
               </Form.Group>
             </Form.Row>
             <Button type="submit" style={{ marginRight: "10px" }}>
-              Search
+              {t("Search")}
             </Button>
           </Form>
         )}
