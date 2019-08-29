@@ -105,7 +105,7 @@ function HomePage() {
                     variant="primary"
                     onClick={() => (window.location.href = a.url)}
                   >
-                    Go
+                    {t('Go')}
                   </Button>
                 </Card.Body>
               </Card>

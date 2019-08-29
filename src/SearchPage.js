@@ -75,7 +75,7 @@ function SearchPage() {
               variant="primary"
               onClick={() => (window.location.href = a.web_url)}
             >
-              Go
+              {t("Go")}
             </Button>
           </Card.Body>
         </Card>
