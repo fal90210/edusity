@@ -1,4 +1,8 @@
 .navbar,
 .navbar-default {
-    background-color: green!important; /* override background image gradient w/ flat color */
+  background-color: green !important; /* override background image gradient w/ flat color */
+}
+
+.center {
+  text-align: center;
 }

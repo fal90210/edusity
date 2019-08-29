@@ -28,7 +28,7 @@ function App({ location }) {
       <Router history={history}>
         <TopBar />
         <Route path="/" exact component={HomePage} />
-        <Route path="/" exact component={SearchPage} />
+        <Route path="/search" exact component={SearchPage} />
       </Router>
     </div>
   );

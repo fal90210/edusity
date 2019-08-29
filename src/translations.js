@@ -28,6 +28,8 @@ const resources = {
       travel: "Travel",
       upshot: "Upshot",
       world: "World",
+      Search: "Search",
+      numResults: "There are <1>{{count}}</1> results.",
     },
   },
   fr: {
@@ -59,6 +61,8 @@ const resources = {
       travel: "Voyage",
       upshot: "Résultat",
       world: "Monde",
+      Search: "Search",
+      numResults: "Il y a <1>{{count}}</1> résultats.",
     },
   },
 };
