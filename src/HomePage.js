@@ -73,14 +73,14 @@ function HomePage() {
           <div className="col right">
             <Form className="d-sm-block d-md-none d-lg-none d-xl-none">
               <Form.Group controlId="section">
-                <Form.Label>Section</Form.Label>
+                <Form.Label>{t("Section")}</Form.Label>
                 <Form.Control
                   as="select"
                   onChange={loadArticles}
                   value={selectedSection}
                 >
                   {sections.map(s => (
-                    <option key={s}>{t(s)}</option>
+                    <option key={s} value={s}>{t(s)}</option>
                   ))}
                 </Form.Control>
               </Form.Group>
@@ -105,7 +105,7 @@ function HomePage() {
                     variant="primary"
                     onClick={() => (window.location.href = a.url)}
                   >
-                    {t('Go')}
+                    {t("Go")}
                   </Button>
                 </Card.Body>
               </Card>

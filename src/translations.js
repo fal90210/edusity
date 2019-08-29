@@ -37,6 +37,7 @@ const resources = {
       French: "French",
       Keyword: "Keyword",
       Go: "Go",
+      Section: "Section",
     },
   },
   fr: {
@@ -77,6 +78,7 @@ const resources = {
       French: "Français",
       Keyword: "Mot-clé",
       Go: "Aller",
+      Section: "Section",
     },
   },
 };
