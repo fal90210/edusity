@@ -5,6 +5,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { getArticles } from "./requests";
+import { useTranslation } from "react-i18next";
 import "./HomePage.css";
 
 const sections = `arts, automobiles, books, business, fashion, food, health,
@@ -18,6 +19,7 @@ function HomePage() {
   const [selectedSection, setSelectedSection] = useState("arts");
   const [articles, setArticles] = useState([]);
   const [initialized, setInitialized] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const load = async section => {
     setSelectedSection(section);
@@ -62,7 +64,7 @@ function HomePage() {
                       load(s);
                     }}
                   >
-                    {s}
+                    {t(s)}
                   </a>
                 </ListGroup.Item>
               ))}
@@ -78,12 +80,12 @@ function HomePage() {
                   value={selectedSection}
                 >
                   {sections.map(s => (
-                    <option key={s}>{s}</option>
+                    <option key={s}>{t(s)}</option>
                   ))}
                 </Form.Control>
               </Form.Group>
             </Form>
-            <h1>{selectedSection}</h1>
+            <h1>{t(selectedSection)}</h1>
             {articles.map((a, i) => (
               <Card key={i}>
                 <Card.Body>
