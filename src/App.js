@@ -5,9 +5,23 @@ import TopBar from "./TopBar";
 import { createBrowserHistory as createHistory } from "history";
 import "./App.css";
 import SearchPage from "./SearchPage";
+import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 const history = createHistory();
 
 function App({ location }) {
+  const { t, i18n } = useTranslation();
+  const [initialized, setInitialized] = useState(false);
+  const changeLanguage = lng => {
+    i18n.changeLanguage(lng);
+  };
+
+  useEffect(() => {
+    if (!initialized) {
+      changeLanguage(localStorage.getItem("language") || "en");
+      setInitialized(true);
+    }
+  });
 
   return (
     <div className="App">

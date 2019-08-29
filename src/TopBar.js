@@ -10,6 +10,7 @@ function TopBar({ location }) {
   const { pathname } = location;
   const { t, i18n } = useTranslation();
   const changeLanguage = lng => {
+    localStorage.setItem("language", lng);
     i18n.changeLanguage(lng);
   };
 
