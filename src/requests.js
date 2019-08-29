@@ -4,7 +4,7 @@ const querystring = require("querystring");
 
 export const search = data => {
   Object.keys(data).forEach(key => {
-    data["api-key"] = process.env.REACT_APIKEY;
+    data["api-key"] = process.env.REACT_APP_APIKEY;
     if (!data[key]) {
       delete data[key];
     }
@@ -14,4 +14,6 @@ export const search = data => {
   );
 };
 export const getArticles = section =>
-  axios.get(`${APIURL}/topstories/v2/${section}.json`);
+  axios.get(
+    `${APIURL}/topstories/v2/${section}.json?api-key=${process.env.REACT_APP_APIKEY}`
+  );

@@ -2,6 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Form from "react-bootstrap/Form";
 import ListGroup from "react-bootstrap/ListGroup";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import { getArticles } from "./requests";
 import "./HomePage.css";
 
 const sections = `arts, automobiles, books, business, fashion, food, health,
@@ -13,40 +16,99 @@ technology, theater, tmagazine, travel, upshot, world`
 
 function HomePage() {
   const [selectedSection, setSelectedSection] = useState("arts");
+  const [articles, setArticles] = useState([]);
+  const [initialized, setInitialized] = useState(false);
 
-  const getArticles = async e => {
-    console.log(e);
+  const load = async section => {
+    setSelectedSection(section);
+    const response = await getArticles(section);
+    setArticles(response.data.results || []);
   };
+
+  const loadArticles = async e => {
+    if (!e || !e.target) {
+      return;
+    }
+    setSelectedSection(e.target.value);
+    load(e.target.value);
+  };
+
+  const initializeArticles = () => {
+    load(selectedSection);
+    setInitialized(true);
+  };
+
+  useEffect(() => {
+    if (!initialized) {
+      initializeArticles();
+    }
+  });
 
   return (
     <div className="HomePage">
-      <div className="row">
-        <div className="col-md-3 d-none d-md-block d-lg-block d-xl-block">
-          <ListGroup>
-            {sections.map(s => (
-              <ListGroup.Item
-                key={s}
-                className="list-group-item"
-                active={s == selectedSection}
-              >
-                <a className="link" onClick={() => setSelectedSection(s)}>
-                  {s}
-                </a>
-              </ListGroup.Item>
+      <div className="col-12">
+        <div className="row">
+          <div className="col-md-3 d-none d-md-block d-lg-block d-xl-block">
+            <ListGroup className="sections">
+              {sections.map(s => (
+                <ListGroup.Item
+                  key={s}
+                  className="list-group-item"
+                  active={s == selectedSection}
+                >
+                  <a
+                    className="link"
+                    onClick={() => {
+                      load(s);
+                    }}
+                  >
+                    {s}
+                  </a>
+                </ListGroup.Item>
+              ))}
+            </ListGroup>
+          </div>
+          <div className="col right">
+            <Form className="d-sm-block d-md-none d-lg-none d-xl-none">
+              <Form.Group controlId="section">
+                <Form.Label>Section</Form.Label>
+                <Form.Control
+                  as="select"
+                  onChange={loadArticles}
+                  value={selectedSection}
+                >
+                  {sections.map(s => (
+                    <option key={s}>{s}</option>
+                  ))}
+                </Form.Control>
+              </Form.Group>
+            </Form>
+            <h1>{selectedSection}</h1>
+            {articles.map((a, i) => (
+              <Card key={i}>
+                <Card.Body>
+                  <Card.Title>{a.title}</Card.Title>
+                  <Card.Img
+                    variant="top"
+                    className="image"
+                    src={
+                      Array.isArray(a.multimedia) &&
+                      a.multimedia[a.multimedia.length - 1]
+                        ? a.multimedia[a.multimedia.length - 1].url
+                        : null
+                    }
+                  />
+                  <Card.Text>{a.abstract}</Card.Text>
+                  <Button
+                    variant="primary"
+                    onClick={() => (window.location.href = a.url)}
+                  >
+                    Go
+                  </Button>
+                </Card.Body>
+              </Card>
             ))}
-          </ListGroup>
-        </div>
-        <div className="col right">
-          <Form className="d-sm-block d-md-none d-lg-none d-xl-none">
-            <Form.Group controlId="section">
-              <Form.Label>Section</Form.Label>
-              <Form.Control as="select" onChange={getArticles}>
-                {sections.map(s => (
-                  <option key={s}>{s}</option>
-                ))}
-              </Form.Control>
-            </Form.Group>
-          </Form>
+          </div>
         </div>
       </div>
     </div>
