@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## To start the project you must have Node JS/NVM installed - after installation
+
+`npm install`
+
+This will generate a folder 'node modules' folder.
+
+To start the local server follow the steps:
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -66,3 +74,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Clouds URL: https://codepen.io/_fbrz/pen/iqtlk

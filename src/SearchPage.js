@@ -7,7 +7,7 @@ import { Formik } from "formik";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import { Trans } from "react-i18next";
+// import { Trans } from "react-i18next";
 import { search } from "./requests";
 import Card from "react-bootstrap/Card";
 
@@ -18,7 +18,7 @@ const schema = yup.object({
 function SearchPage() {
   const { t } = useTranslation();
   const [articles, setArticles] = useState([]);
-  const [count, setCount] = useState(0);
+  //const [count, setCount] = useState(0);
 
   const handleSubmit = async e => {
     const response = await search({ q: e.keyword });
@@ -62,9 +62,11 @@ function SearchPage() {
         )}
       </Formik>
       <h3 className="form">
+        {/*
         <Trans i18nKey="numResults" count={articles.length}>
           There are <strong>{{ count }}</strong> results.
         </Trans>
+        */}
       </h3>
       {articles.map((a, i) => (
         <Card key={i}>

@@ -1,0 +1,320 @@
+@import '_buttons';
+@import '_typography';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    // "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    // sans-serif;
+    font-family: $primary-font;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Custom */
+.navbar-dark {
+    .navbar-nav {
+        .nav-link {
+            color: #333;
+
+            &.active {
+                color: brand-color !important;
+            }
+        }
+
+        &.hover {
+            color: brand-color;
+        }
+    }
+}
+
+.navbar-toggler-icon {
+    background-image: url(./black-icon.svg) !important;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar, .navbar-default {
+    background-color: white;
+}
+
+.bg-primary {
+    background: white !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.col {
+    &.right {}
+}
+
+.HomePage {
+    padding-top: 4.55rem;
+    height: 1700px;
+
+    .right {
+        padding: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+}
+
+.cta-banner {
+    //background-color: crimson;
+    height: 75vh;
+
+    .cta-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 3rem;
+    }
+}
+
+.SearchPage, .EnterprisePage, .BlogPage, .LoginPage {
+    padding-top: 4rem;
+
+    h1 {
+        margin-top: 3rem;
+    }
+}
+
+.welcome {
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 3rem;
+}
+
+.cookie {
+    display: block;
+}
+
+.navbar-dark {
+    .navbar-brand {
+        color: #333;
+        position: relative;
+
+        &::after {
+            content: "TM";
+            font-size: 30%;
+            vertical-align: text-top;
+            font-weight: 400;
+            color: #333;
+            position: absolute;
+            top: 13px;
+        }
+    }
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: $brand-color;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link {
+            &:focus, &:hover {
+                color: #333;
+            }
+        }
+        .show>.nav-link {
+            color: $brand-color;
+        }
+    }
+}
+
+.navbar-brand {
+    color: $brand-color !important;
+    font-size: 200%;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.dropdown {
+    &.nav-item {
+        margin-right: 2.5rem;
+    }
+}
+
+.dropdown-toggle {
+    &:after {
+        background-image: url(./down-arrow.svg);
+        background-size: cover;
+        width: 10px;
+        height: 5px;
+        border: none;
+        margin-left: 0.3em;
+        vertical-align: 0.1em;
+        display: inline-block;
+    }
+}
+
+//.dropdown {
+//    top: 7px;
+//
+//    &.nav-item {
+//
+//        a {
+//            padding-top: 1px;
+//            padding-bottom: 1px;
+//            padding-left: 1rem !important;
+//            padding-right: 1rem !important;
+//            border: 1px solid rgba(white, 0.5);
+//            border-radius: 25px;
+//        }
+//    }
+//}
+//
+//.navbar-expand-lg {
+//    .navbar-nav {
+//        .dropdown-menu {
+//            top: 27px;
+//            text-align: right;
+//        }
+//    }
+//}
+//
+//#basic-nav-dropdown {
+//    margin-left: 55px;
+//}
+
+//.dropdown-menu {
+//    min-width: auto;
+//
+//    a {
+//        &.dropdown-item {
+//            padding: .25rem 1.5rem .25rem 1rem;
+//
+//            &:after {
+//                content: "";
+//                position: relative;
+//                background-size: cover;
+//                width: 25px;
+//                height: 14px;
+//                display: inline-block;
+//                top: 1px;
+//                left: 0.5rem;
+//            }
+//
+//            &:first-of-type {
+//                &:after {
+//                    background-image: url("gb.svg");
+//                }
+//            }
+//
+//            &:nth-of-type(2) {
+//                &:after {
+//                    background-image: url("fr.svg");
+//                }
+//            }
+//
+//            &:nth-of-type(3) {
+//                &:after {
+//                    background-image: url("de.svg");
+//                }
+//            }
+//        }
+//    }
+//}
+
+.scrolled {
+    nav {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        &.navbar {
+            //background-color: black;
+            box-shadow: 0 0 25px rgba(black, 0.1);
+        }
+    }
+
+    a {
+        &.navbar-brand {
+            color: #F601C2 !important; /*#F1DB00*/
+            -webkit-transition: color 250ms;
+            transition: color 250ms;
+        }
+    }
+
+}
+
+// Overlays
+.overlay {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(black, 0.8);
+
+    .overlay-inner {
+        position: absolute;
+        width: 60%;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+
+        h1 {
+            text-transform: uppercase;
+        }
+    }
+}
+
+// Responsive Styles
+@media only screen and (max-width: 992px) {
+    .button-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .dropdown {
+        display: none !important; // Hiding the Language Switcher
+    }
+  }
+
+// Don't show on large(r) screens
+@media only screen and (min-width: 992px) {
+    .cookie {
+        display: none;
+    }
+}  
