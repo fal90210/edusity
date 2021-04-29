@@ -1,13 +1,10 @@
 import React from 'react';
 import { translate, useTranslation } from "react-i18next";
-// import { withRouter } from "react-router-dom";
 
 const { t } = useTranslation();
 
 function WhoIsUsingUs() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
-    //const [count, setCount] = useState(0);
 
     return (
             <section className="whoIsUsingUs">

@@ -20,13 +20,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "Learn a new skill today",
                 "for LIVE online courses": "for LIVE online courses"
-                //all: "All",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {
@@ -131,13 +124,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "Apprenez une nouvelle compétence aujourd'hui",
                 "for LIVE online courses": "pour les cours en ligne LIVE"
-                //all: "Toute",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {
@@ -232,13 +218,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "Lerne heute eine neue Fähigkeit",
                 "for LIVE online courses": "für LIVE Online-Kurse"
-                //all: "Toute",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {
@@ -336,13 +315,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "Aprenda una nueva habilidad hoy",
                 "for LIVE online courses": "para cursos en línea EN VIVO"
-                //all: "Toute",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {
@@ -440,13 +412,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "Aprenda uma nova habilidade hoje",
                 "for LIVE online courses": "para cursos online AO ​​VIVO"
-                //all: "Toute",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {
@@ -542,13 +507,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "今日新しいスキルを学ぶ",
                 "for LIVE online courses": "ライブオンラインコースの場合"
-                //all: "Toute",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {
@@ -641,13 +599,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "आज एक नया कौशल सीखें",
                 "for LIVE online courses": "LIVE ऑनलाइन पाठ्यक्रम"
-                //all: "Toute",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {
@@ -739,13 +690,6 @@ const resources = {
             tabs: {
                 "Learn a new skill today": "Изучите новый навык сегодня",
                 "for LIVE online courses": "для онлайн-курсов LIVE"
-                //all: "Toute",
-                //python: "Python",
-                //javascript: "Javascript",
-                //react: "React",
-                //ai: "Artificial Intelligence",
-                //laravel: "Laravel",
-                //"Web Development": "Web Development"
             },
 
             pricing: {

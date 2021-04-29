@@ -3,7 +3,6 @@ import { translate, useTranslation } from "react-i18next";
 // import { withRouter } from "react-router-dom";
 
 import Tabs from "./Tabs";
-//import img1 from './swBanner.svg';
 
 import cookingImg from './cooking.jpg';
 import aiImg from './aiImg.jpg';

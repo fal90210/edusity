@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import { translate, useTranslation } from "react-i18next";
-// import { withRouter } from "react-router-dom";
-//import ChangeLanguage from "./ChangeLanguage";
-//import Header from "./Header";
 
 import instructorImg from './teacher-feature.png';
 
@@ -10,8 +7,6 @@ const { t } = useTranslation();
 
 function TeacherFeature() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
-    //const [count, setCount] = useState(0);
 
     return (
             <section className="teacherFeature">
@@ -40,6 +35,4 @@ function TeacherFeature() {
     );
 }
 
-// extended main view with translate hoc
-//export default translate("translations")(HeroBanner);
 export default TeacherFeature;
