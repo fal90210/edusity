@@ -103,19 +103,19 @@ function Footer() {
 
                             <ul className="social-icons">
                                 <li className="twitter-icon">
-                                    <a aria-label="Link to Twitter" href="https://twitter.com/Edusityglobal" target="_blank"></a>
+                                    <a aria-label="Link to Twitter" href="https://twitter.com/Edusityglobal" rel="noopener noreferrer" target="_blank"></a>
                                 </li>
 
                                 <li className="facebook-icon">
-                                    <a aria-label="Link to Facebook" href="https://www.facebook.com/Edusitycom/" target="_blank"></a>
+                                    <a aria-label="Link to Facebook" href="https://www.facebook.com/Edusitycom/" rel="noopener noreferrer" target="_blank"></a>
                                 </li>
 
                                 <li className="instagram-icon">
-                                    <a  aria-label="Link to Instagram" href="https://www.instagram.com/edusityglobal/" target="_blank"></a>
+                                    <a  aria-label="Link to Instagram" href="https://www.instagram.com/edusityglobal/" rel="noopener noreferrer" target="_blank"></a>
                                 </li>
 
                                 <li className="linkedin-icon">
-                                    <a aria-label="Link to Linked In" href="https://www.linkedin.com/company/edusity/" target="_blank"></a>
+                                    <a aria-label="Link to Linked In" href="https://www.linkedin.com/company/edusity/" rel="noopener noreferrer" target="_blank"></a>
                                 </li>
                             </ul>
 
@@ -154,6 +154,4 @@ function Footer() {
     );
 }
 
-// extended main view with translate hoc
-//export default translate("translations")(HeroBanner);
 export default Footer;

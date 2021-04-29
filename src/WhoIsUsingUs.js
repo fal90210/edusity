@@ -45,6 +45,4 @@ function WhoIsUsingUs() {
     );
 }
 
-// extended main view with translate hoc
-//export default translate("translations")(HeroBanner);
 export default WhoIsUsingUs;

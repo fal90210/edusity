@@ -10,12 +10,10 @@ import { search } from "./requests";
 
 function TeachingPage() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
     const [count, setCount] = useState(0);
 
     const handleSubmit = async e => {
         const response = await search({q: e.keyword});
-        //setArticles(response.data.response.docs || []);
     };
 
     return (

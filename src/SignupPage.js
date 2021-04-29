@@ -4,19 +4,8 @@ import { useTranslation } from "react-i18next";
 import Footer from "./Footer";
 import { search } from "./requests";
 
-// const schema = yup.object({
-//     keyword: yup.string().required("Keyword is required"),
-// });
-
 function SignupPage() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
-    //const [count, setCount] = useState(0);
-
-    //const handleSubmit = async e => {
-    //const response = await search({q: e.keyword});
-    //setArticles(response.data.response.docs || []);
-    //};
 
     return (
             <div className="LoginPage">
@@ -44,18 +33,18 @@ function SignupPage() {
                                 <span className="reg-me">I want to register as a:</span>
                                 <div>
                                     <span>
-                                        <input checked type="radio" id="test1" name="radio-group"/>
-                                        <label for="test1">Student</label>
+                                        <input type="radio" id="test1" name="radio-group"/>
+                                        <label htmlFor="test1">Student</label>
                                     </span>
 
                                     <span>
                                         <input type="radio" id="test2" name="radio-group"/>
-                                        <label for="test2">Parent</label>
+                                        <label htmlFor="test2">Parent</label>
                                     </span>
 
                                     <span>
                                         <input type="radio" id="test3" name="radio-group"/>
-                                        <label for="test3">Teacher</label>
+                                        <label htmlFor="test3">Teacher</label>
                                     </span>
                                 </div>
                             </div>
@@ -87,24 +76,6 @@ function SignupPage() {
                                     />
                                 </div>
 
-                                {/*
-                                 <div className="form-row half">
-                                 <div>
-                                 <select>
-                                 <option>Select Country Code</option>
-                                 <option></option>
-                                 <option></option>
-                                 </select>
-                                 </div>
-                                 <div>
-                                 <input id="email_ID"
-                                 className="full"
-                                 placeholder="phone"
-                                 />
-                                 </div>
-                                 </div>
-                                 */}
-
                                 <div className="form-row">
                                     <input id="email_ID"
                                            type="password"
@@ -113,15 +84,6 @@ function SignupPage() {
                                     />
                                 </div>
 
-                                {/*
-                                 <div className="form-row">
-                                 <input id="email_ID"
-                                 type="password"
-                                 className="full"
-                                 placeholder="confirm password"
-                                 />
-                                 </div>
-                                 */}
                             </div>
                         </div>
                     </div>

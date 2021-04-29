@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+//import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./SearchPage.css";
 
@@ -7,8 +7,6 @@ import Footer from "./Footer";
 
 function PricingPage() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
-    const [count, setCount] = useState(0);
 
     return (
             <div className="PricingPage">

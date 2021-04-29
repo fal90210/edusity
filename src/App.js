@@ -35,7 +35,7 @@ function App({ location }) {
         }
 
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY > 50);
+            setScroll(window.scrollY > 100);
         });
     });
 

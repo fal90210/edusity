@@ -6,8 +6,6 @@ const { t } = useTranslation();
 
 function TeacherBenifits() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
-    //const [count, setCount] = useState(0);
 
     return (
             <section className="teacherBenefits">
@@ -99,6 +97,4 @@ function TeacherBenifits() {
     );
 }
 
-// extended main view with translate hoc
-//export default translate("translations")(HeroBanner);
 export default TeacherBenifits;

@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from "react";
+//import React, { Component } from 'react';
 import { translate, useTranslation } from "react-i18next";
 
 import instructorImg from './teacher-feature.png';
@@ -10,7 +11,6 @@ function TeacherFeature() {
 
     return (
             <section className="teacherFeature">
-                {/*<p className="center">{t("Enterprise Intro")}</p>*/}
 
                 <div className="inner-wrapper">
                     <div className="right">

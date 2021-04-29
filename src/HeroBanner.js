@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
+import React from "react";
+//import React, { Component } from 'react';
 import { translate, useTranslation } from "react-i18next";
-// import { withRouter } from "react-router-dom";
-//import ChangeLanguage from "./ChangeLanguage";
-//import Header from "./Header";
 
 const { t } = useTranslation();
 
 function HeroBanner() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
-    //const [count, setCount] = useState(0);
 
     return (
             <section className="heroBanner">
@@ -46,6 +42,4 @@ function HeroBanner() {
     );
 }
 
-// extended main view with translate hoc
-//export default translate("translations")(HeroBanner);
 export default HeroBanner;

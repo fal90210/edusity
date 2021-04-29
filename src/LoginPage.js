@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 
 import Footer from "./Footer";
 import { search } from "./requests";
-//import Card from "react-bootstrap/Card";
 
 function LoginPage() {
     const { t } = useTranslation();

@@ -16,34 +16,13 @@ const { t } = useTranslation();
 
 function CourseList() {
     const { t } = useTranslation();
-    //const [articles, setArticles] = useState([]);
-    //const [count, setCount] = useState(0);
 
     return (
             <section className="CourseList">
-                {/*
-                 <div className="inner-wrapper">
-                 <span className="title">
-                 {t("Why Edusity?")}
-                 </span>
-                 </div>
-                 */}
 
                 <div className="inner-wrapper">
-                    {/*
-                     <div className="title">
-                     {t("Learning Beyond Boundaries")}
-                     </div>
-                     */}
 
                     <div className="header-wrapper">
-                        {/*
-                         <h5>
-                         Learn a new skill today,
-                         <a href="/register">register</a>
-                         for LIVE online courses!
-                         </h5>
-                         */}
 
                         <h5>
                             <span>{t("tabs.Learn a new skill today")}</span>
