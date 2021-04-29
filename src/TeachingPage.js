@@ -8,6 +8,9 @@ import "./SearchPage.css";
 //import Col from "react-bootstrap/Col";
 //import Button from "react-bootstrap/Button";
 // import { Trans } from "react-i18next";
+import TeacherBanner from "./TeacherBanner";
+import TeacherBenifits from "./TeacherBenifits";
+import Footer from "./Footer";
 import { search } from "./requests";
 //import Card from "react-bootstrap/Card";
 
@@ -17,18 +20,20 @@ import { search } from "./requests";
 
 function TeachingPage() {
     const { t } = useTranslation();
-    const [articles, setArticles] = useState([]);
+    //const [articles, setArticles] = useState([]);
     const [count, setCount] = useState(0);
 
     const handleSubmit = async e => {
         const response = await search({q: e.keyword});
-        setArticles(response.data.response.docs || []);
+        //setArticles(response.data.response.docs || []);
     };
 
     return (
-            <div className="EnterprisePage">
-                <h1 className="center">{t("Teach with edusity")}</h1>
-                <p className="center">{t("Enterprise Intro")}</p>
+            <div className="teacherPage">
+                <TeacherBanner />
+                <TeacherBenifits />
+
+                <Footer />
             </div>
     );
 }

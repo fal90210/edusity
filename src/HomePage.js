@@ -4,9 +4,19 @@ import { useState, useEffect } from "react";
 //import ListGroup from "react-bootstrap/ListGroup";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { getArticles } from "./requests";
+// import { getArticles } from "./requests";
+import { withRouter } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import "./HomePage.css";
+import HeroBanner from "./HeroBanner";
+import FlowerDiag from "./FlowerDiag";
+import GlobalReach from "./GlobalReach";
+import FeaturedOn from "./FeaturedOn";
+
+import LearningBeyond from "./LearningBeyond";
+import CourseList from "./CourseList";
+import TeacherFeature from "./TeacherFeature";
+import Footer from "./Footer";
+//import "./HomePage.css"; TODO Remove if not needed
 
 const sections = `arts, automobiles, books, business, fashion, food, health,
 home, insider, magazine, movies, national, nyregion, obituaries,
@@ -119,21 +129,25 @@ function HomePage() {
                                     </Card>
                             ))}
 
-                            {/**/}
+                            {/*
                             <div className="cta-banner">
                                 <div className="cta-wrapper">
                                     <h1 className="welcome">{t("welcome")}</h1>
                                     <p className="introduction">{t("introduction")}</p>
                                 </div>
                             </div>
-
-                            {/*
-                            <div className="button-wrapper">
-                                <a href="/enterprise">
-                                    <div className="btn">{t("enterpriseEdition")}</div>
-                                </a>
-                            </div>
                             */}
+
+                            <HeroBanner />
+                            <FeaturedOn />
+                            <LearningBeyond />
+
+                            {/*<FlowerDiag />*/}
+
+                            <CourseList />
+                            <GlobalReach />
+                            <TeacherFeature />
+                            <Footer />
                         </div>
                     </div>
                 </div>

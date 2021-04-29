@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2400px" height="202px" viewBox="0 0 2400 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pressBack</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pressBack">
+            <polygon id="Rectangle" fill="#FFFFFF" points="2400 3 2400 103 0 103"></polygon>
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="102" width="2400" height="100"></rect>
+            <line x1="1.59503101" y1="105.317543" x2="2399.40497" y2="0.682456832" id="Line-9" stroke="#DEDEDE" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>

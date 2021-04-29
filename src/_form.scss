@@ -1,0 +1,41 @@
+// All about Forms
+
+input {
+    outline: none !important;
+
+    &:select {
+
+        ::placeholder {
+            color: red !important;
+        }
+    }
+}
+
+::placeholder {
+    font-size: 90%;
+    font-weight: 200;
+    color: #999;
+    font-style: italic;
+    //line-height: 1rem;
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 0 5rem 0 1.5rem;
+    min-height: 45px;
+    border: 1px solid $brand-color;
+}
+
+.form-row {
+    margin: 0 0 1rem 0;
+
+    &.half {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        div {
+            width: 48%;
+        }
+    }
+}

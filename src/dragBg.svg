@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="751px" height="1000px" viewBox="0 0 751 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dragBg</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dragBg" transform="translate(-49.000000, 0.000000)" stroke="#D092FF">
+            <g id="Group-22" transform="translate(50.000000, -250.000000)">
+                <circle id="Oval" stroke-opacity="0.9" cx="750" cy="750" r="50"></circle>
+                <circle id="Oval-Copy-3" stroke-opacity="0.8" cx="750" cy="750" r="150"></circle>
+                <circle id="Oval-Copy-4" stroke-opacity="0.7" cx="750" cy="750" r="250"></circle>
+                <circle id="Oval-Copy-5" stroke-opacity="0.6" cx="750" cy="750" r="350"></circle>
+                <circle id="Oval-Copy-6" stroke-opacity="0.5" cx="750" cy="750" r="450"></circle>
+                <circle id="Oval-Copy-7" stroke-opacity="0.4" cx="750" cy="750" r="550"></circle>
+                <circle id="Oval-Copy-8" stroke-opacity="0.3" cx="750" cy="750" r="650"></circle>
+                <circle id="Oval-Copy-9" stroke-opacity="0.25" cx="750" cy="750" r="750"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,53 +1,152 @@
+@import "typography";
+
 // Buttons
 .btn {
     //background: white;
     color: #333;
+    font-weight: 200;
     //padding: 0.75rem 2rem;
 
     &:hover {
         color: #333;
-        background: white;
+        //background: white;
     }
 
     &.login-btn {
-        padding: 0.1rem 0.5rem;
+        padding: 0;
         background-color: white;
         color: #333;
         border-radius: 20px;
+        border: 1px solid #CCC;
         //text-transform: uppercase;
     }
 
     &.signup-btn {
-        background-color: transparent;
+        padding: 0;
+        margin-left: 1rem;
+        //background-color: transparent;
 
         a {
-            background-color: #7108B9;
+            background-color: $brand-color;
             color: white !important;
 
             &:hover {
-                background-color: darken($color: #7108B9, $amount: 10%);
+                //background-color: darken($color: #7108B9, $amount: 10%);
+                background-color: darken($brand-color, 10%);
             }
         }
     }
 
+    &.btn-submit {
+        background-color: $brand-color;
+        min-height: 45px;
+        min-width: 4rem;
+        border-radius: 0 25px 25px 0;
+        text-indent: -9999px;
+    }
+
+    &.courses-btn {
+        border: 1px solid rgba(black, 0.2);
+        border-radius: 25px;
+        margin-right: 1rem;
+        position: relative;
+        line-height: 2;
+        //font-size: 90%;
+        padding: 0.15rem 1.3rem;
+        background: #EEE;
+
+        a {
+            border: none;
+            padding: inherit 2rem;
+            text-decoration: none;
+        }
+
+        .hover-menu {
+            position: absolute;
+        }
+    }
+
+    &.custom-quote {
+        text-transform: uppercase;
+        //font-size: 90%;
+        margin: 0.6rem 0;
+        //font-size: 120%;
+        max-width: 100%;
+
+        a {
+            color: white !important;
+            color: #F601C2;
+            padding: 0.5rem 1.3rem;
+            text-decoration: none;
+            //border: 1px solid #F601C2;
+            background: #F601C2;
+            display: block;
+            font-weight: 400;
+
+            &:hover {
+                color: $brand-color;
+                border-color: $brand-color;
+            }
+
+            span {
+                display: block;
+                font-size: 80%;
+                max-width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+
+    &.bio {
+        //background: $brand-color;
+        //color: white;
+        margin-top: 1rem;
+
+        a {
+            background: $brand-color-dark;
+            padding: 0.75rem 2.5rem;
+            color: white;
+
+            &:hover {
+                background: darken($brand-color-dark, 10%);
+            }
+        }
+    }
+
+    &.register {
+
+    }
+
     a {
-        border: 1px solid rgba(black, 0.15);
+        //border: 1px solid rgba(black, 0.15);
         border-radius: 25px;
         color: #333;
-        min-width: 95px;
+        min-width: 100px;
     }
 }
 
 .button-wrapper {
     div {
         display: inline-block;
-        background: black;
+        //background: black;
         color: white;
-        //text-transform: uppercase;
         font-size: 90%;
+    }
+}
 
-        // &:last-of-type {
-        //     margin-left: 1rem;
-        // }
+.input-wrapper {
+    .button-wrapper {
+        &:after {
+            content: "";
+            background-image: url("./search.svg");
+            width: 18px;
+            height: 17px;
+            display: inline-block;
+            position: absolute;
+            top: 0.85rem;
+            right: 1.5rem;
+        }
     }
 }

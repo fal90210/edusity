@@ -7,10 +7,13 @@ import { createBrowserHistory as createHistory } from "history";
 
 import SearchPage from "./SearchPage";
 import EnterprisePage from "./EnterprisePage";
+import PricingPage from "./PricingPage";
 import TeachingPage from "./TeachingPage";
 import BlogPage from "./BlogPage";
 import LoginPage from "./LoginPage";
 import SignupPage from "./SignupPage";
+
+import Advert from "./Advert";
 
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
@@ -39,11 +42,19 @@ function App({ location }) {
 
     return (
             <div className={scroll ? "scrolled" : ""}>
+
+                {/*
+                <div className={scroll ? "showAd" : "hide"}>
+                    <Advert />
+                </div>
+                 */}
+
                 <Router history={history}>
                     <TopBar />
                     <Route path="/" exact component={HomePage}/>
                     <Route path="/search" exact component={SearchPage}/>
                     <Route path="/enterprise" exact component={EnterprisePage}/>
+                    <Route path="/pricing" exact component={PricingPage}/>
                     <Route path="/blog" exact component={BlogPage}/>
 
                     <Route path="/teaching" exact component={TeachingPage}/>

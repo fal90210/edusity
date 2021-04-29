@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="13px" height="7px" viewBox="0 0 13 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Down Arrow</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="Down-Arrow" transform="translate(0.000000, 1.000000)" stroke="#000000">
-            <line x1="12.1283555" y1="0" x2="6" y2="5.14230088" id="Line-2"></line>
-            <line x1="6.12835554" y1="0" x2="0" y2="5.14230088" id="Line-2-Copy" transform="translate(3.064178, 2.571150) scale(1, -1) translate(-3.064178, -2.571150) "></line>
-        </g>
-    </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="13" height="7" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M12.128 1L6 6.142M6.128 6.142L0 1"/></g></svg>

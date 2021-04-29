@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1930px" height="151px" viewBox="0 0 1930 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle 4</title>
+    <defs>
+        <path d="M0,71.7032967 C28.0538855,85.6660374 55.3095915,95.1750637 81.767118,100.230375 C180,119 299.712677,119 495,119 C960,119 1107.20187,9 1551,9 C1715.66667,9 1838.66667,29.9010989 1920,71.7032967 L1920,150 L0,150 L0,71.7032967 Z" id="path-1"></path>
+        <filter x="-0.5%" y="-10.6%" width="101.0%" height="114.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.382320804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" transform="translate(5.000000, 1.000000)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
