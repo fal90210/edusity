@@ -1,7 +1,7 @@
 import React from 'react';
 import { translate, useTranslation } from "react-i18next";
 
-import connectingImg from './connecting.svg';
+//import connectingImg from './connecting.svg';
 import dashBoard from './dashboard.svg';
 
 const { t } = useTranslation();
