@@ -56,6 +56,7 @@ function PricingPage() {
                                 <span>Upload video course files:</span>
                             </div>
                             <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            {/*
                             <div className="pricing-row">
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Unlimted courses & activities</span>
@@ -104,6 +105,7 @@ function PricingPage() {
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Customer support</span>
                             </div>
+                            */}
                         </div>
 
                         <div className="pricing-col">
@@ -133,6 +135,7 @@ function PricingPage() {
                                 <span>Upload video course files:</span>
                             </div>
                             <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            {/*
                             <div className="pricing-row">
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Unlimted courses & activities</span>
@@ -181,6 +184,7 @@ function PricingPage() {
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Customer support</span>
                             </div>
+                             */}
                         </div>
 
                         <div className="pricing-col">
@@ -210,6 +214,7 @@ function PricingPage() {
                                 <span>Upload video course files:</span>
                             </div>
                             <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            {/*
                             <div className="pricing-row">
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Unlimted courses & activities</span>
@@ -258,6 +263,7 @@ function PricingPage() {
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Customer support</span>
                             </div>
+                             */}
                         </div>
 
                         <div className="pricing-col">
@@ -283,6 +289,7 @@ function PricingPage() {
                                 <span>Upload video course files:</span>
                             </div>
                             <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            {/*
                             <div className="pricing-row">
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Unlimted courses & activities</span>
@@ -331,6 +338,13 @@ function PricingPage() {
                                 <span className="block"><i className="checkmark"></i></span>
                                 <span>Customer support</span>
                             </div>
+                             */}
+                        </div>
+                    </div>
+
+                    <div className="pricing-points-wrapper">
+                        <div className="inner-wrapper">
+                            <h3>All plans include the following:</h3>
                         </div>
                     </div>
                 </div>

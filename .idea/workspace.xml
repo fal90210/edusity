@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b23260-c0ae-46e2-a535-e8017e0ee6fd" name="Default" comment="Cleanup and added workspace.xml to .gitignore">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cityBg.png" afterPath="$PROJECT_DIR$/src/cityBg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CourseList.js" afterPath="$PROJECT_DIR$/src/CourseList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HomePage.js" afterPath="$PROJECT_DIR$/src/HomePage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PricingPage.js" afterPath="$PROJECT_DIR$/src/PricingPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_buttons.scss" afterPath="$PROJECT_DIR$/src/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dashboard.svg" afterPath="$PROJECT_DIR$/src/dashboard.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edusity-logo.svg" afterPath="$PROJECT_DIR$/src/edusity-logo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.scss" afterPath="$PROJECT_DIR$/src/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/swBanner.svg" afterPath="$PROJECT_DIR$/src/swBanner.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/translations.js" afterPath="$PROJECT_DIR$/src/translations.js" />
     </list>
     <ignored path="react-translation-tutorial-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.822695">
-              <caret line="2050" column="22" selection-start-line="2050" selection-start-column="22" selection-end-line="2050" selection-end-column="22" />
+            <state vertical-scroll-proportion="-14.75">
+              <caret line="517" column="34" selection-start-line="517" selection-start-column="34" selection-end-line="517" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HomePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33557048">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -86,8 +91,8 @@
       <file leaf-file-name="PricingPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PricingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.740741">
-              <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="346" column="64" selection-start-line="346" selection-start-column="64" selection-end-line="346" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -152,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/_typography.scss" />
         <option value="$PROJECT_DIR$/src/_form.scss" />
         <option value="$PROJECT_DIR$/src/TopBar.js" />
-        <option value="$PROJECT_DIR$/src/HomePage.js" />
         <option value="$PROJECT_DIR$/src/LearningBeyond.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/EnterprisePage.js" />
@@ -172,9 +176,10 @@
         <option value="$PROJECT_DIR$/src/GlobalReach.js" />
         <option value="$PROJECT_DIR$/src/CourseList.js" />
         <option value="$PROJECT_DIR$/src/_buttons.scss" />
-        <option value="$PROJECT_DIR$/src/PricingPage.js" />
         <option value="$PROJECT_DIR$/src/translations.js" />
+        <option value="$PROJECT_DIR$/src/PricingPage.js" />
         <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/HomePage.js" />
       </list>
     </option>
   </component>
@@ -745,7 +750,7 @@
       <workItem from="1611263142020" duration="46955000" />
       <workItem from="1611787917509" duration="11264000" />
       <workItem from="1615398277381" duration="285234000" />
-      <workItem from="1619729910159" duration="21208000" />
+      <workItem from="1619729910159" duration="24149000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup and added workspace.xml to .gitignore">
       <created>1619711137089</created>
@@ -757,7 +762,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381973000" />
+    <option name="totallyTimeSpent" value="384914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -944,6 +949,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56179774">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -987,14 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26966292">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="148" column="45" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,14 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PricingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.740741">
-          <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/translations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1199,10 +1189,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PricingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="346" column="64" selection-start-line="346" selection-start-column="64" selection-end-line="346" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.822695">
-          <caret line="2050" column="22" selection-start-line="2050" selection-start-column="22" selection-end-line="2050" selection-end-column="22" />
+        <state vertical-scroll-proportion="-14.75">
+          <caret line="517" column="34" selection-start-line="517" selection-start-column="34" selection-end-line="517" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33557048">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding />
         </state>
       </provider>

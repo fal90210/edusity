@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 import { withRouter } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import HeroBanner from "./HeroBanner";
-import FlowerDiag from "./FlowerDiag";
+//import FlowerDiag from "./FlowerDiag";
 import GlobalReach from "./GlobalReach";
 import FeaturedOn from "./FeaturedOn";
 
