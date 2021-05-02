@@ -99,6 +99,48 @@
         }
     }
 
+    &.purchaseBtn {
+
+        a {
+            //background: darken($brand-color, 10%);
+            background: white;
+            font-weight: 600;
+            padding: 0.5rem 1.3rem;
+            border: 1px solid $brand-color;
+            color: $brand-color;
+            font-size: 80%;
+        }
+    }
+
+    &.salesBtn {
+
+        a {
+            background: darken($brand-color, 20%);
+            font-weight: 600;
+            padding: 0.5rem 1.3rem;
+            color: white;
+            font-size: 80%;
+        }
+    }
+
+    &.buy {
+        padding: 0 0 1rem 0;
+
+        a {
+            background: white;
+            font-weight: 600;
+            border: 1px solid rgba(black, 0.5);
+            padding: 0.5rem 1.3rem;
+            font-size: 80%;
+
+            &:hover {
+                background: darken($brand-color, 25%);
+                color: white;
+                border-color: darken($brand-color, 25%);
+            }
+        }
+    }
+
     &.bio {
         //background: $brand-color;
         //color: white;

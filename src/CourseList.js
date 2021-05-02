@@ -220,6 +220,54 @@ function CourseList() {
 
                                             <div className="contributors">(22)</div>
                                         </div>
+
+                                        <div className="price-wrapper">
+                                            <div>
+                                                <span>usd</span>
+                                                <span>49</span>
+                                            </div>
+                                            <div className="btn buy">
+                                                <a href="#">Purchase</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="course-tile-alt">
+                                    <div className="image-wrapper">
+                                        <div className="category">Web Development</div>
+                                        <img alt="testing" src={pythonImg}/>
+                                    </div>
+
+                                    <div className="content-wrapper">
+                                        <div className="tile-header">Python programming for beginers</div>
+
+                                        <div className="author">
+                                            <div className="auth-title">Author</div>
+                                            <div className="auth-name">Peter Wortmierz</div>
+                                        </div>
+
+                                        <div className="rating">
+                                            <div className="star-rating">
+                                                <span className="full-star"></span>
+                                                <span className="full-star"></span>
+                                                <span className="full-star"></span>
+                                                <span className="full-star"></span>
+                                                <span className="full-star"></span>
+                                            </div>
+
+                                            <div className="contributors">(236)</div>
+                                        </div>
+
+                                        <div className="price-wrapper">
+                                            <div>
+                                                <span>usd</span>
+                                                <span>49</span>
+                                            </div>
+                                            <div className="btn buy">
+                                                <a href="#">Purchase</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -249,6 +297,16 @@ function CourseList() {
                                             </div>
 
                                             <div className="contributors">(15)</div>
+                                        </div>
+
+                                        <div className="price-wrapper">
+                                            <div>
+                                                <span>usd</span>
+                                                <span>49</span>
+                                            </div>
+                                            <div className="btn buy">
+                                                <a href="#">Purchase</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -280,33 +338,15 @@ function CourseList() {
 
                                             <div className="contributors">(546)</div>
                                         </div>
-                                    </div>
-                                </div>
 
-                                <div className="course-tile-alt">
-                                    <div className="image-wrapper">
-                                        <div className="category">Web Development</div>
-                                        <img alt="testing" src={pythonImg}/>
-                                    </div>
-
-                                    <div className="content-wrapper">
-                                        <div className="tile-header">Python programming for beginers</div>
-
-                                        <div className="author">
-                                            <div className="auth-title">Author</div>
-                                            <div className="auth-name">Peter Wortmierz</div>
-                                        </div>
-
-                                        <div className="rating">
-                                            <div className="star-rating">
-                                                <span className="full-star"></span>
-                                                <span className="full-star"></span>
-                                                <span className="full-star"></span>
-                                                <span className="full-star"></span>
-                                                <span className="full-star"></span>
+                                        <div className="price-wrapper">
+                                            <div>
+                                                <span>usd</span>
+                                                <span>49</span>
                                             </div>
-
-                                            <div className="contributors">(236)</div>
+                                            <div className="btn buy">
+                                                <a href="#">Purchase</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -337,6 +377,16 @@ function CourseList() {
                                             </div>
 
                                             <div className="contributors">(1546)</div>
+                                        </div>
+
+                                        <div className="price-wrapper">
+                                            <div>
+                                                <span>usd</span>
+                                                <span>49</span>
+                                            </div>
+                                            <div className="btn buy">
+                                                <a href="#">Purchase</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

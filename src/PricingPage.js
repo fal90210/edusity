@@ -31,60 +31,79 @@ function PricingPage() {
                 <div className="pricing-wrapper">
                     <div className="pricing-inner-wrapper">
                         <div className="pricing-col">
-                            <div className="pricing-row header">Plans</div>
-                            <div className="pricing-row tallBoy">{t("pricing.Pricing")}</div>
-                            <div className="pricing-row">Max user accounts</div>
-                            <div className="pricing-row">Max file storage</div>
-                            <div className="pricing-row">Virtual classroom</div>
-                            <div className="pricing-row">Session Recording</div>
-                            <div className="pricing-row">Total Virtual sessions per day</div>
-                            <div className="pricing-row">Max concurrent video conferencing</div>
-                            <div className="pricing-row">Upload video course files</div>
-                            <div className="pricing-row greenBg">Free trial</div>
-                            <div className="pricing-row">Unlimted courses & activities</div>
-                            <div className="pricing-row">Web conferencing</div>
-                            <div className="pricing-row">Webinar recording</div>
-                            <div className="pricing-row">File sharing</div>
-                            <div className="pricing-row">Visual scheduling</div>
-                            <div className="pricing-row">Community forum</div>
-                            <div className="pricing-row">Reporting</div>
-                            <div className="pricing-row">Analytics dashboard</div>
-                            <div className="pricing-row">Concurrent sessions</div>
-                            <div className="pricing-row">Secure SSL certification</div>
-                            <div className="pricing-row">Automated backup/restore</div>
-                            <div className="pricing-row">Customer support</div>
-                        </div>
-
-                        <div className="pricing-col">
                             <div className="pricing-row header">Lite</div>
                             <div className="pricing-row tallBoy">
                                 <span className="pricing-desc">299</span>
                                 <div className="per-year">{t("pricing.per year")}</div>
                                 <div className="finePrnt">
-                                    <span>$16.58 /month</span>
+                                    <span>$16.58 / month</span>
                                     <span>{t("pricing.billed annually")}</span>
                                 </div>
                             </div>
-                            <div className="pricing-row">50 Users</div>
-                            <div className="pricing-row">500 MB</div>
-                            <div className="pricing-row">60 Mins</div>
-                            <div className="pricing-row">3 Days</div>
-                            <div className="pricing-row">2 Sessions</div>
-                            <div className="pricing-row">50 Users</div>
-                            <div className="pricing-row">No</div>
-                            <div className="pricing-row greenBg">30 Days</div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
+                            <div className="pricing-row">
+                                <div className="btn purchaseBtn">
+                                    <a href="#">{t("pricing.Purchase")}</a>
+                                </div>
+                            </div>
+                            <div className="pricing-row"><span className="highlight">100</span> Max user accounts</div>
+                            <div className="pricing-row"><span className="highlight">750MB</span> Max file storage</div>
+                            <div className="pricing-row"><span className="highlight">60 Mins</span> Virtual classroom per session</div>
+                            <div className="pricing-row"><span className="highlight">3 Days</span> Available session recording</div>
+                            <div className="pricing-row"><span className="highlight">4</span> Total virtual sessions per day</div>
+                            <div className="pricing-row"><span className="highlight">50 Users</span> Max concurrent video conferencing</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="check"></i></span>
+                                <span>Upload video course files:</span>
+                            </div>
+                            <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Unlimted courses & activities</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Web conferencing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Webinar recording</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>File sharing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Visual scheduling</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Community forum</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Reporting</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Analytics dashboard</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Concurrent sessions</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Secure SSL certification</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Automated backup/restore</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Customer support</span>
+                            </div>
                         </div>
 
                         <div className="pricing-col">
@@ -94,30 +113,74 @@ function PricingPage() {
                                 <span className="pricing-desc">499</span>
                                 <div className="per-year">{t("pricing.per year")}</div>
                                 <div className="finePrnt">
-                                    <span>$41.58 /month</span>
+                                    <span>$41.58 / month</span>
                                     <span>{t("pricing.billed annually")}</span>
                                 </div>
                             </div>
-                            <div className="pricing-row">200 Users</div>
-                            <div className="pricing-row">1.5 GB</div>
-                            <div className="pricing-row">60 Mins</div>
-                            <div className="pricing-row">5 Days</div>
-                            <div className="pricing-row">4 Sessions</div>
-                            <div className="pricing-row">100 Users</div>
-                            <div className="pricing-row">No</div>
-                            <div className="pricing-row greenBg">30 Days</div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
+                            <div className="pricing-row">
+                                <div className="btn purchaseBtn">
+                                    <a href="#">{t("pricing.Purchase")}</a>
+                                </div>
+                            </div>
+                            <div className="pricing-row"><span className="highlight">250</span> Max user accounts</div>
+                            <div className="pricing-row"><span className="highlight">2GB</span> Max file storage</div>
+                            <div className="pricing-row"><span className="highlight">90 Mins</span> Virtual classroom per session</div>
+                            <div className="pricing-row"><span className="highlight">7 Days</span> Available session recording</div>
+                            <div className="pricing-row"><span className="highlight">8</span> Total virtual sessions per day</div>
+                            <div className="pricing-row"><span className="highlight">50 Users</span> Max concurrent video conferencing</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Upload video course files:</span>
+                            </div>
+                            <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Unlimted courses & activities</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Web conferencing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Webinar recording</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>File sharing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Visual scheduling</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Community forum</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Reporting</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Analytics dashboard</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Concurrent sessions</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Secure SSL certification</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Automated backup/restore</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Customer support</span>
+                            </div>
                         </div>
 
                         <div className="pricing-col">
@@ -127,30 +190,74 @@ function PricingPage() {
                                 <span className="pricing-desc">1199</span>
                                 <div className="per-year">{t("pricing.per year")}</div>
                                 <div className="finePrnt">
-                                    <span>$99.91 /month</span>
+                                    <span>$99.91 / month</span>
                                     <span>{t("pricing.billed annually")}</span>
                                 </div>
                             </div>
-                            <div className="pricing-row">500 Users</div>
-                            <div className="pricing-row">3 GB</div>
-                            <div className="pricing-row">90 Mins</div>
-                            <div className="pricing-row">20 Days</div>
-                            <div className="pricing-row">15 Sessions</div>
-                            <div className="pricing-row">200 Users</div>
-                            <div className="pricing-row">Yes</div>
-                            <div className="pricing-row greenBg">30 Days</div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
+                            <div className="pricing-row">
+                                <div className="btn purchaseBtn">
+                                    <a href="#">{t("pricing.Purchase")}</a>
+                                </div>
+                            </div>
+                            <div className="pricing-row"><span className="highlight">500</span> Max user accounts</div>
+                            <div className="pricing-row"><span className="highlight">3GB</span> Max file storage</div>
+                            <div className="pricing-row"><span className="highlight">90 Mins</span> Virtual classroom per session</div>
+                            <div className="pricing-row"><span className="highlight">20 Days</span> Available session recording</div>
+                            <div className="pricing-row"><span className="highlight">8</span> Total virtual sessions per day</div>
+                            <div className="pricing-row"><span className="highlight">100 Users</span> Max concurrent video conferencing</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Upload video course files:</span>
+                            </div>
+                            <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Unlimted courses & activities</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Web conferencing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Webinar recording</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>File sharing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Visual scheduling</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Community forum</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Reporting</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Analytics dashboard</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Concurrent sessions</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Secure SSL certification</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Automated backup/restore</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Customer support</span>
+                            </div>
                         </div>
 
                         <div className="pricing-col">
@@ -160,26 +267,70 @@ function PricingPage() {
                                 <div className="btn custom-quote"><a href="#"><span>{t("pricing.Book a Demo")}</span></a></div>
                                 <div>{t("pricing.Custom pricing")}</div>
                             </div>
-                            <div className="pricing-row">1000 Users</div>
-                            <div className="pricing-row">6 GB</div>
-                            <div className="pricing-row">120 Mins</div>
-                            <div className="pricing-row">30 Days</div>
-                            <div className="pricing-row">Unlimited Sessions</div>
-                            <div className="pricing-row">TBD</div>
-                            <div className="pricing-row">Yes</div>
-                            <div className="pricing-row greenBg">30 Days</div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
-                            <div className="pricing-row"><i className="checkmark"></i></div>
+                            <div className="pricing-row">
+                                <div className="btn salesBtn">
+                                    <a href="#">Contact Sales</a>
+                                </div>
+                            </div>
+                            <div className="pricing-row"><span className="highlight">1000</span> Max user accounts</div>
+                            <div className="pricing-row"><span className="highlight">6GB</span> Max file storage</div>
+                            <div className="pricing-row"><span className="highlight">120 Mins</span> Virtual classroom per session</div>
+                            <div className="pricing-row"><span className="highlight">30 Days</span> Available session recording</div>
+                            <div className="pricing-row"><span className="highlight">Unlimited</span> Virtual sessions per day</div>
+                            <div className="pricing-row"><span className="highlight">TBD</span>  Max concurrent video conferencing</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Upload video course files:</span>
+                            </div>
+                            <div className="pricing-row greenBg"><span className="highlight">30 Days</span> FREE trial</div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Unlimted courses & activities</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Web conferencing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Webinar recording</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>File sharing</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Visual scheduling</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Community forum</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Reporting</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Analytics dashboard</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Concurrent sessions</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Secure SSL certification</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Automated backup/restore</span>
+                            </div>
+                            <div className="pricing-row">
+                                <span className="block"><i className="checkmark"></i></span>
+                                <span>Customer support</span>
+                            </div>
                         </div>
                     </div>
                 </div>

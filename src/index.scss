@@ -386,12 +386,25 @@ ul {
     }
 }
 
-.checkmark {
+.checkmark,.check {
     display: inline-block;
-    background: url("checkmark.svg");
     background-size: cover;
+}
+
+.checkmark {
+    background: url("checkmark.svg");
     width: 21px;
     height: 14px;
+}
+
+.check {
+    background: url("check.svg");
+    width: 13px;
+    height: 13px;
+}
+
+.block {
+    display: block;
 }
 
 .PricingPage {
@@ -426,8 +439,9 @@ ul {
 
         .cs-title {
             text-transform: uppercase;
-            font-weight: 500;
+            font-weight: 800;
             margin: 1rem 0 0 0;
+            color: #EEE;
         }
 
         .options-wrapper {
@@ -499,10 +513,11 @@ ul {
 
         .pricing-col {
             font-weight: 100;
-            width: 15.65%;
+            width: 23%;
             text-align: center;
             border-right: none;
             align-self: start;
+            //border: 1px solid red;
 
             .full-too {
                 position: absolute;
@@ -521,9 +536,9 @@ ul {
             }
 
             &:first-of-type {
-                text-align: right;
-                width: 26%;
-                background: #F7F7F7;
+                //text-align: right;
+                //width: 26%;
+                //background: #F7F7F7;
 
                 .pricing-row {
                     border-right: none;
@@ -532,7 +547,7 @@ ul {
 
             &:last-of-type {
                 border-right: 1px solid $pricing-table-border;
-                width: 27%;
+                width: 31%;
             }
         }
 
@@ -550,6 +565,17 @@ ul {
             overflow: hidden;
             text-overflow: ellipsis;
 
+            span {
+                //display: block;
+            }
+
+            .highlight {
+                line-height: 0.75rem;
+                color: $brand-color;
+                font-weight: 400;
+                display: block;
+            }
+
             .per-year {
                 margin-top: -0.5rem;
                 margin-bottom: 0.5rem;
@@ -561,7 +587,7 @@ ul {
 
                 span {
                     display: block;
-                    line-height: 1;
+                    line-height: 1.5em;
                 }
             }
 
@@ -586,7 +612,8 @@ ul {
             overflow: visible;
 
             &.pricing-row {
-                font-weight: 100;
+                font-weight: 800;
+                color: $brand-color;
             }
         }
 
@@ -604,10 +631,10 @@ ul {
             font-weight: 800;
             letter-spacing: -1px;
             position: relative;
-            color: lighten($brand-color, 60%);
+            color: darken($brand-color, 10%);
             height: 10rem;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: $brand-color;
+            //-webkit-text-stroke-width: 1px;
+            //-webkit-text-stroke-color: $brand-color;
 
             &:before {
                 content: "$";
@@ -1173,8 +1200,8 @@ ul {
         background-color: white;
         margin-right: 1rem;
         width: calc(23% - 10px);
-        min-width: 280px;
-        max-height: 400px;
+        min-width: 270px;
+        max-height: 430px;
         overflow: hidden;
         position: relative;
         flex: 1 1 100px;
@@ -1195,6 +1222,28 @@ ul {
                 padding: 0.25rem 1rem;
                 background: rgba(black, 0.75);
                 color: white;
+            }
+        }
+
+        .price-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            span {
+
+                &:first-of-type {
+                    font-size: 80%;
+                    font-weight: 400;
+                    color: #999;
+                    text-transform: uppercase;
+                    vertical-align: super;
+                }
+
+                &:last-of-type {
+                    font-size: 130%;
+                    font-weight: 900;
+                }
             }
         }
 
@@ -1566,6 +1615,7 @@ ul {
         &.navbar {
             background-color: white !important;
             box-shadow: 0 0 25px rgba(black, 0.1);
+            animation: pulse 250ms;
         }
     }
 
@@ -1656,10 +1706,10 @@ footer {
 
                 li {
                     a {
-                        color: $brand-color;
+                        color: darken($brand-color, 50%);
 
                         &:hover {
-                            color: darken($brand-color, 50%);
+                            color: $brand-color;
                             text-decoration: none;
                         }
                     }
@@ -1772,7 +1822,7 @@ footer {
         //font-weight: 100;
 
         li {
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.5rem;
 
             a {
                 color: #333;
@@ -1871,6 +1921,24 @@ footer {
     }
 }
 
+// For nav smooth transition
+@keyframes pulse {
+    0% {
+        background-color: #001F3F;
+    }
+    100% {
+        background-color: white;
+    }
+}
+@-webkit-keyframes pulse {
+    0% {
+        background-color: #001F3F;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
 // Responsive Styles
 @media only screen and (max-width: 992px) {
     nav {
@@ -1960,6 +2028,37 @@ footer {
     }
 }
 
+@media only screen and (max-width: 850px) {
+    .PricingPage {
+        .pricing-wrapper {
+            .pricing-col {
+                width: 50%;
+
+                &:last-of-type {
+                    width: 50%;
+                }
+
+                .full-too {
+                    top: 0;
+                }
+            }
+            .pricing-row {
+                padding: 2rem 1rem 1rem 1rem;
+            }
+        }
+
+        .title-wrapper {
+            z-index: 3;
+        }
+
+        .coming-soon {
+            .cs-title {
+                color: #333;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 668px) {
     .dropdown {
         display: none !important; // Hiding the Language Switcher
@@ -2039,6 +2138,8 @@ footer {
         .text-wrap {
             width: 90%;
             left: 50%;
+            background: rgba(white, 0.8);
+            padding: 1rem;
         }
     }
 
@@ -2075,7 +2176,7 @@ footer {
     }
 
     .globalReach {
-        min-height: 42rem;
+        min-height: 52rem;
 
         .inner-wrapper {
 

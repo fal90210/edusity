@@ -34,7 +34,8 @@ const resources = {
                 "Custom pricing": "Custom pricing",
                 "Book a Demo": "Book a Demo",
                 "per year": "per year",
-                "billed annually" : "billed annually"
+                "billed annually" : "billed annually",
+                "Purchase": "Purchase"
             },
 
             form: {
@@ -137,7 +138,8 @@ const resources = {
                 "Custom pricing": "Tarification personnalisée",
                 "Book a Demo": "Réservez une démo",
                 "per year": "par an",
-                "billed annually" : "facturé annuellement"
+                "billed annually" : "facturé annuellement",
+                "Purchase": "Acheter"
             },
 
             "FalPan's Sample App": "Exemple d'application de FalPan",
@@ -231,7 +233,8 @@ const resources = {
                 "Custom pricing": "Benutzerdefinierte Preise",
                 "Book a Demo": "Buchen Sie eine Demo",
                 "per year": "pro Jahr",
-                "billed annually" : "jährlich abgerechnet"
+                "billed annually" : "jährlich abgerechnet",
+                "Purchase": "Kauf"
             },
 
             "FalPan's Sample App": "FalPans Beispiel-App",
@@ -328,7 +331,8 @@ const resources = {
                 "Book a Demo": "Reserve una demostración",
                 "per year": "por año",
                 "Best Value": "Mejor valor",
-                "billed annually" : "facturado anualmente"
+                "billed annually" : "facturado anualmente",
+                "Purchase": "Compra"
             },
 
             "FalPan's Sample App": "Aplicación de muestra de Fal Pan",
@@ -425,7 +429,8 @@ const resources = {
                 "Custom pricing": "Preços personalizados",
                 "Book a Demo": "Reserve uma demonstração",
                 "per year": "por ano",
-                "billed annually" : "cobrado anualmente"
+                "billed annually" : "cobrado anualmente",
+                "Purchase": "Comprar"
             },
 
             "FalPan's Sample App": "Aplicativo de amostra da FalPan",
@@ -520,7 +525,8 @@ const resources = {
                 "Custom pricing": "カスタム価格",
                 "Book a Demo": "デモを予約する",
                 "per year": "1年当たり",
-                "billed annually" : "毎年請求"
+                "billed annually" : "毎年請求",
+                "Purchase": "購入"
             },
 
             "FalPan's Sample App": "サンプルアプリ",
@@ -612,7 +618,8 @@ const resources = {
                 "Custom pricing": "कस्टम मूल्य निर्धारण",
                 "Book a Demo": "डेमो बुक करें",
                 "per year": "प्रति वर्ष",
-                "billed annually" : "सालाना बिल किया"
+                "billed annually" : "सालाना बिल किया",
+                "Purchase": "खरीद"
             },
 
             "FalPan's Sample App": "फाल्पन का नमूना ऐप",
@@ -703,7 +710,8 @@ const resources = {
                 "Custom pricing": "Индивидуальные цены",
                 "Book a Demo": "ЗАБРОНИРОВАТЬ ДЕМО",
                 "per year": "в год",
-                "billed annually" : "счет ежегодно"
+                "billed annually" : "счет ежегодно",
+                "Purchase": "Покупка"
             },
 
             "FalPan's Sample App": "Образец приложения FalPan",

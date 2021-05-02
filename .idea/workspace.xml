@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b23260-c0ae-46e2-a535-e8017e0ee6fd" name="Default" comment="Cleanup and added workspace.xml to .gitignore">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/altBg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cityscape.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/connecting.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/connecting.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dashboard.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/expert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/globalReachBg.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/swBanner Art.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/swirl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/teacher-icon.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GlobalReach.js" afterPath="$PROJECT_DIR$/src/GlobalReach.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cityBg.png" afterPath="$PROJECT_DIR$/src/cityBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CourseList.js" afterPath="$PROJECT_DIR$/src/CourseList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PricingPage.js" afterPath="$PROJECT_DIR$/src/PricingPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_buttons.scss" afterPath="$PROJECT_DIR$/src/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dashboard.svg" afterPath="$PROJECT_DIR$/src/dashboard.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edusity-logo.svg" afterPath="$PROJECT_DIR$/src/edusity-logo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.scss" afterPath="$PROJECT_DIR$/src/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/swBanner.svg" afterPath="$PROJECT_DIR$/src/swBanner.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/translations.js" afterPath="$PROJECT_DIR$/src/translations.js" />
     </list>
     <ignored path="react-translation-tutorial-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="translations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/translations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="713" column="36" selection-start-line="713" selection-start-column="36" selection-end-line="713" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42316785">
-              <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.822695">
+              <caret line="2050" column="22" selection-start-line="2050" selection-start-column="22" selection-end-line="2050" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -69,46 +73,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherBenifits.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TeacherBenifits.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalReach.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GlobalReach.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherFeature.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TeacherFeature.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Footer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="117" column="144" selection-start-line="117" selection-start-column="144" selection-end-line="117" selection-end-column="144" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HeroBanner.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeroBanner.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,8 +86,18 @@
       <file leaf-file-name="PricingPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PricingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state vertical-scroll-proportion="-5.740741">
+              <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.25">
+              <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -133,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/CourseList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="396" column="55" selection-start-line="395" selection-start-column="0" selection-end-line="396" selection-end-column="55" />
+              <caret line="389" column="46" selection-start-line="389" selection-start-column="46" selection-end-line="389" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -180,12 +154,10 @@
         <option value="$PROJECT_DIR$/src/TopBar.js" />
         <option value="$PROJECT_DIR$/src/HomePage.js" />
         <option value="$PROJECT_DIR$/src/LearningBeyond.js" />
-        <option value="$PROJECT_DIR$/src/_buttons.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/EnterprisePage.js" />
         <option value="$PROJECT_DIR$/src/SearchPage.css" />
         <option value="$PROJECT_DIR$/src/WhiteLabelIntro.js" />
-        <option value="$PROJECT_DIR$/src/translations.js" />
         <option value="$PROJECT_DIR$/src/TeachingPage.js" />
         <option value="$PROJECT_DIR$/src/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/WhoIsUsingUs.js" />
@@ -194,12 +166,14 @@
         <option value="$PROJECT_DIR$/src/SignupPage.js" />
         <option value="$PROJECT_DIR$/src/TeacherFeature.js" />
         <option value="$PROJECT_DIR$/src/HeroBanner.js" />
-        <option value="$PROJECT_DIR$/src/PricingPage.js" />
-        <option value="$PROJECT_DIR$/src/CourseList.js" />
         <option value="$PROJECT_DIR$/src/Footer.js" />
         <option value="$PROJECT_DIR$/src/TeacherBanner.js" />
         <option value="$PROJECT_DIR$/src/TeacherBenifits.js" />
         <option value="$PROJECT_DIR$/src/GlobalReach.js" />
+        <option value="$PROJECT_DIR$/src/CourseList.js" />
+        <option value="$PROJECT_DIR$/src/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/PricingPage.js" />
+        <option value="$PROJECT_DIR$/src/translations.js" />
         <option value="$PROJECT_DIR$/src/index.scss" />
       </list>
     </option>
@@ -274,20 +248,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-translation-tutorial-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-translation-tutorial-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -785,7 +745,7 @@
       <workItem from="1611263142020" duration="46955000" />
       <workItem from="1611787917509" duration="11264000" />
       <workItem from="1615398277381" duration="285234000" />
-      <workItem from="1619729910159" duration="1410000" />
+      <workItem from="1619729910159" duration="21208000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup and added workspace.xml to .gitignore">
       <created>1619711137089</created>
@@ -797,11 +757,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362175000" />
+    <option name="totallyTimeSpent" value="381973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,15 +769,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.49263158" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.50736845" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -996,6 +956,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2083335">
-          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665">
@@ -1088,6 +1041,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/translations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="691" column="67" selection-start-line="691" selection-start-column="67" selection-end-line="691" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Advert.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1177,22 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PricingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CourseList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="396" column="55" selection-start-line="395" selection-start-column="0" selection-end-line="396" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1237,10 +1167,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="389" column="46" selection-start-line="389" selection-start-column="46" selection-end-line="389" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.25">
+          <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PricingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.740741">
+          <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/translations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="713" column="36" selection-start-line="713" selection-start-column="36" selection-end-line="713" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42316785">
-          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.822695">
+          <caret line="2050" column="22" selection-start-line="2050" selection-start-column="22" selection-end-line="2050" selection-end-column="22" />
           <folding />
         </state>
       </provider>
