@@ -344,7 +344,22 @@ function PricingPage() {
 
                     <div className="pricing-points-wrapper">
                         <div className="inner-wrapper">
-                            <h3>All plans include the following:</h3>
+                            <h3>All our plans include the following</h3>
+
+                            <ul className="pricing-list">
+                                <li>Unlimted courses & activities</li>
+                                <li>Web conferencing</li>
+                                <li>Webinar recording</li>
+                                <li>File sharing</li>
+                                <li>Visual scheduling</li>
+                                <li>Community forum</li>
+                                <li>Reporting</li>
+                                <li>Analytics dashboard</li>
+                                <li>Concurrent sessions</li>
+                                <li>Secure SSL certification</li>
+                                <li>Automated backup &amp; restore</li>
+                                <li>Customer support</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
