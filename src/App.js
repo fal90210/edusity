@@ -3,6 +3,8 @@ import { Router, Route, Link } from "react-router-dom";
 import HomePage from "./HomePage";
 import TopBar from "./TopBar";
 import { createBrowserHistory as createHistory } from "history";
+
+import Dashboard from './Dashboard';
 //import "./App.css";
 
 import SearchPage from "./SearchPage";
@@ -20,6 +22,8 @@ import { useState, useEffect } from "react";
 const history = createHistory();
 
 function App({ location }) {
+    // Set token for server side information
+    const [token, setToken] = useState();
     const { t, i18n } = useTranslation();
     const [initialized, setInitialized] = useState(false);
     const changeLanguage = lng => {
@@ -38,9 +42,13 @@ function App({ location }) {
             setScroll(window.scrollY > 100);
         });
     });
+  //  if(!token) {
+    //    return <LoginPage setToken={setToken} />
+      //}
 
-
-    return (
+    if(!token) {
+       return (
+        
             <div className={scroll ? "scrolled" : ""}>
 
                 {/*
@@ -54,16 +62,17 @@ function App({ location }) {
                     <Route path="/" exact component={HomePage}/>
                     <Route path="/search" exact component={SearchPage}/>
                     <Route path="/enterprise" exact component={EnterprisePage}/>
-                    <Route path="/pricing" exact component={PricingPage}/>
+                    <Route path="/pricing" exact component={PricingPage} />
                     <Route path="/blog" exact component={BlogPage}/>
 
                     <Route path="/teaching" exact component={TeachingPage}/>
 
-                    <Route path="/login" exact component={LoginPage}/>
+                    <Route path="/login" exact component={LoginPage} setToken={setToken}/>
                     <Route path="/register" exact component={SignupPage}/>
                 </Router>
             </div>
-    );
+        );
+    }
 }
 
 export default App;
