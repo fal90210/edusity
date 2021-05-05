@@ -344,6 +344,7 @@ function PricingPage() {
 
                     <div className="pricing-points-wrapper">
                         <div className="inner-wrapper">
+                            <div className="plus">+</div>
                             <h3>All our plans include the following</h3>
 
                             <ul className="pricing-list">

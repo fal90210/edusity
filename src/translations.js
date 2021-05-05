@@ -23,9 +23,9 @@ const resources = {
             },
 
             pricing: {
-                "Pricing Intro": "Choose from one of our tailored packages or get in touch with us for custom white label options and pricing",
+                "Pricing Intro": "Choose from one of our tailored packages or get in touch with us for a 'built-for-you' custom white label options and pricing",
                 "Most Popular": "Most Popular",
-                "No Risk": "Security, scalability and affordability all in one package",
+                "No Risk": "Security, scalability and affordability all in a package",
                 "Best Value": "Best Value",
                 "Monthly": "Monthly",
                 "Yearly": "Yearly",

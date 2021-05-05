@@ -196,6 +196,16 @@ function CourseList() {
                             </div>
                             <div label="React JS">
                                 <div className="course-tile-alt">
+                                    {/* -- This is for the overlay! -- */}
+                                    <div className="more-info-wrapper animate-from-left">
+                                        <div className="tile-header-overlay">90日で流暢な日本語の初心者ガイド</div>
+                                        <p className="finePrnt">13 April 2021</p>
+
+                                        <div>
+                                            <p>Follow the instructions in this video for a, step-by-step guide, you will learn Japanese fluently.</p>
+                                        </div>
+                                    </div>
+
                                     <div className="image-wrapper">
                                         <div className="category">Languages</div>
                                         <img alt="testing" src={langImg}/>
@@ -227,13 +237,23 @@ function CourseList() {
                                                 <span>49</span>
                                             </div>
                                             <div className="btn buy">
-                                                <a href="#">Purchase</a>
+                                                <a href="#">More Info</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="course-tile-alt">
+                                    {/* -- This is for the overlay! -- */}
+                                    <div className="more-info-wrapper animate-from-left">
+                                        <div className="tile-header-overlay">Python programming for beginers</div>
+                                        <p className="finePrnt">28 March 2021</p>
+
+                                        <div>
+                                            <p>If you are looking to learn Python, this is it!</p>
+                                        </div>
+                                    </div>
+
                                     <div className="image-wrapper">
                                         <div className="category">Web Development</div>
                                         <img alt="testing" src={pythonImg}/>
@@ -265,13 +285,23 @@ function CourseList() {
                                                 <span>49</span>
                                             </div>
                                             <div className="btn buy">
-                                                <a href="#">Purchase</a>
+                                                <a href="#">More Info</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="course-tile-alt">
+                                    {/* -- This is for the overlay! -- */}
+                                    <div className="more-info-wrapper animate-from-left">
+                                        <div className="tile-header-overlay">Artificial Intelligence - How it changed our day to day life and what is the future</div>
+                                        <p className="finePrnt">28 March 2021</p>
+
+                                        <div>
+                                            <p>Artificial Intelligence - How it changed our day to day life and what is the future</p>
+                                        </div>
+                                    </div>
+
                                     <div className="image-wrapper">
                                         <div className="category">Technology</div>
                                         <img alt="testing" src={aiImg}/>
@@ -305,13 +335,23 @@ function CourseList() {
                                                 <span>49</span>
                                             </div>
                                             <div className="btn buy">
-                                                <a href="#">Purchase</a>
+                                                <a href="#">More Info</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="course-tile-alt">
+                                    {/* -- This is for the overlay! -- */}
+                                    <div className="more-info-wrapper animate-from-left">
+                                        <div className="tile-header-overlay">The perfect pizza dough, perfecting the the craft of making a delicious pizza!</div>
+                                        <p className="finePrnt">28 March 2021</p>
+
+                                        <div>
+                                            <p>The perfect pizza dough, perfecting the the craft of making a delicious pizza!</p>
+                                        </div>
+                                    </div>
+
                                     <div className="image-wrapper">
                                         <div className="category">Cooking</div>
                                         <img alt="testing" src={cookingImg}/>
@@ -345,13 +385,23 @@ function CourseList() {
                                                 <span>49</span>
                                             </div>
                                             <div className="btn buy">
-                                                <a href="#">Purchase</a>
+                                                <a href="#">More Info</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="course-tile-alt">
+                                    {/* -- This is for the overlay! -- */}
+                                    <div className="more-info-wrapper animate-from-left">
+                                        <div className="tile-header-overlay">The art of painting 3 classes to make you an artiste</div>
+                                        <p className="finePrnt">28 March 2021</p>
+
+                                        <div>
+                                            <p>The art of painting 3 classes to make you an artiste</p>
+                                        </div>
+                                    </div>
+
                                     <div className="image-wrapper">
                                         <div className="category">Painting</div>
                                         <img alt="testing" src={artImg}/>
@@ -385,13 +435,23 @@ function CourseList() {
                                                 <span>49</span>
                                             </div>
                                             <div className="btn buy">
-                                                <a href="#">Purchase</a>
+                                                <a href="#">More Info</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="course-tile-alt">
+                                    {/* -- This is for the overlay! -- */}
+                                    <div className="more-info-wrapper animate-from-left">
+                                        <div className="tile-header-overlay">Travels and Experiences in Mexico</div>
+                                        <p className="finePrnt">18 Feb 2021</p>
+
+                                        <div>
+                                            <p>Travels and Experiences in Mexico</p>
+                                        </div>
+                                    </div>
+
                                     <div className="image-wrapper">
                                         <div className="category">Travel</div>
                                         <img alt="testing" src={travelImg}/>

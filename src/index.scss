@@ -155,7 +155,11 @@ ul {
 }
 
 .bg-primary {
-    background: transparent !important;
+    //background: transparent !important;
+}
+
+.navbar {
+    background: white !important;
 }
 
 .center {
@@ -169,7 +173,8 @@ ul {
 
 /* Hero Banner Styles */
 .heroBanner {
-    background-image: url("./heroBanner2.png");
+    background-image: url("./heroBanner.png");
+    //background-image: url("./heroBanner2.png");
     background-size: cover;
     //background-position: center center;
     height: 38rem;
@@ -185,7 +190,7 @@ ul {
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: rgba(white, 0.6);
+        background-color: rgba(white, 0.5);
         display: inline-block;
     }
 
@@ -252,6 +257,7 @@ ul {
     .cta-btn {
         position: absolute;
         z-index: 6;
+        width: 90%;
         left: 50%;
         bottom: 10%;
         transform: translate(-50%, 0%);
@@ -310,6 +316,14 @@ ul {
     -webkit-animation-name: animaterighthome;
     -webkit-animation-duration: 150ms;
     animation-name: animaterighthome;
+    animation-duration: 150ms;
+}
+
+.animate-from-left {
+    position: absolute;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 150ms;
+    animation-name: animateleft;
     animation-duration: 150ms;
 }
 
@@ -384,6 +398,12 @@ ul {
     .row {
         margin: 0;
     }
+}
+
+.plus {
+    font-size: 10rem;
+    font-weight: 800;
+    color: $brand-color;
 }
 
 .checkmark,.check {
@@ -518,7 +538,7 @@ ul {
 
             .inner-wrapper {
                 width: 80%;
-                margin: 5rem auto 0 auto;
+                margin: 0 auto;
                 text-align: center;
             }
 
@@ -1237,10 +1257,56 @@ ul {
         width: calc(23% - 10px);
         min-width: 270px;
         max-height: 430px;
-        overflow: hidden;
+        //overflow: hidden;
         position: relative;
         flex: 1 1 100px;
         border: 1px solid rgba(black, 0.13);
+        cursor: pointer;
+
+        .more-info-wrapper {
+            position: absolute;
+            z-index: 3;
+            padding: 1.5rem;
+            width: 30rem;
+            background: white;
+            border: 1px solid rgba(black, 0.15);
+            left: 106%;
+            top: 0/*-1rem*/;
+            bottom: 0/*-1rem*/;
+            box-shadow: 0 0 5px rgba(black, 0.15);
+            display: none;
+        }
+
+        &:hover {
+            .more-info-wrapper {
+                display: block;
+            }
+        }
+
+        .rating {
+            margin-top: 0.3rem;
+
+            .star-rating {
+                span {
+                    &.full-star, &.half-star {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                .full-star, .half-star {
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+
+                .full-star {
+                    background-image: url("star-theme.svg");
+                }
+                .half-star {
+                    background-image: url("star-theme-half.svg");
+                }
+            }
+        }
 
         .image-wrapper {
             height: 200px;
@@ -1290,7 +1356,20 @@ ul {
             font-size: 125%;
             line-height: 1.5rem;
             margin-bottom: 1rem;
-            min-height: 4.5rem;
+            height: 4.5rem;
+        }
+
+        .tile-header-overlay {
+            font-size: 140%;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+            height: auto;
+        }
+
+        .finePrnt {
+            font-size: 75%;
+            font-weight: 400;
+            text-transform: uppercase;
         }
 
         .auth-title {
@@ -1931,6 +2010,28 @@ footer {
     }
     to {
         right: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes animateleft {
+    from {
+        left: 106%;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: 0;
+        opacity: 0
+    }
+    to {
+        left: 106%;
         opacity: 1
     }
 }

@@ -99,6 +99,20 @@ function Footer() {
                         </div>
 
                         <div className="footer-col">
+
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        {t("terms")}
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        {t("Privacy Policy")}
+                                    </a>
+                                </li>
+                            </ul>
+
                             <div className="footer-subtitle">{t("Connect with us")}</div>
 
                             <ul className="social-icons">
@@ -124,19 +138,6 @@ function Footer() {
                             <ul>
                                 <li><a href="#">MacOS</a></li>
                                 <li><a href="#">Android</a></li>
-                            </ul>
-
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        {t("terms")}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        {t("Privacy Policy")}
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                     </div>
